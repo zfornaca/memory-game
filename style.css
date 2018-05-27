@@ -1,0 +1,67 @@
+body {
+  font-family: 'VT323', monospace;
+  background: darkslategray;
+}
+
+.flex-container,
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  display: inline-block;
+  width: 32vw;
+  background: lightgoldenrodyellow;
+  text-align: center;
+  font-size: 2vw;
+  text-transform: uppercase;
+}
+
+#start {
+  background: orange;
+  font-size: 4vw;
+}
+
+#start:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.slot {
+  width: 18vh;
+  height: 18vh;
+  position: relative;
+  background: red;
+  margin: 1vw;
+  border: 2px solid orange;
+}
+
+.cardBack,
+.cardFront {
+  position: absolute;
+  width: auto;
+  height: 18vh;
+}
+
+.cardBack {
+  transition: 0.25s;
+}
+
+.cardBack:hover {
+  cursor: pointer;
+}
+
+/* .cardBack:active {
+  opacity: 0;
+} */
